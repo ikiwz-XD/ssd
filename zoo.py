@@ -1110,7 +1110,7 @@ def uas():
     	print (" [%s*%s] ketik %sdefault%s untuk gunakan user agent bawaan tools"%(K,P,H,P))
     	try:
     	    ua = raw_input("%s [?] user agent : %s"%(P,K))
-            
+            else :
             	print("%s [!] Isi yang benar kentod "%(M));jeda(2);menu()
             elif ua in("my user agent","My User Agent","MY USER AGENT","My user agent"):
             	jalan("%s [!]  Anda akan di arahkan ke browser "%(H));jeda(2)
